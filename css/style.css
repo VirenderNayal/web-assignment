@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/assets/mainBg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin: auto;
+    width: 90%;
+    padding: 40px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-item{
+    cursor: pointer;
+    margin: 2rem;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.list-item:hover{
+    color: green;
+}
+
+.main-content{
+    display: flex;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.red-color{
+    color: red;
+}
+
+h1{
+    font-size: 4.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    margin: 5px auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: #289089;
+    padding-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div{
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 10px 0;
+    font-family: monospace;
+    background-color: #095a55;
+    color: white;
+}
