@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+*{
+  font-family: 'Urbanist', sans-serif;
+}
+.maintitle{
+  width: 75%;
+  margin:auto;
+  background-color: #095a55;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.container{
+  margin:200px 0px;
+}
+.cards{
+  height:500px;
+  width:90vw;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background-color: #fff38e;
+  flex:1;
+  margin:50px;
+  padding:20px;
+  text-align:center;
+  height: 750px;
+  border: 2px solid #095a55;
+  position: relative;
+}
+.title{
+  position: absolute;
+  top:-35px;
+  background-color: #095a55;
+  width: 90%;
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image{
+  margin-top: 40px;
+  height:200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  width: 300px;
+  height: 200px;
+  object-fit: scale-down;
+}
+.insta{
+  width: 170px;
+}
+.links{
+  height: 90px;
+  background-color: #095a55;
+  color: white;
+  margin-top: 10px;
+  padding: 2px;
+  padding-bottom: 10px;
+}
+ul{
+  padding-right: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li{
+  margin: 5px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+li:hover{
+  transform: scale(1.2);
+}
+a:hover{  
+  transform: scale(1.2);
+  color: #6febe2;
+}
+
+.desc{
+  margin-top: 20px;
+}
