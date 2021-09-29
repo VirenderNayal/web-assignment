@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
-*{
-  font-family: 'Urbanist', sans-serif;
-}
 .maintitle{
   width: 75%;
   margin:auto;
@@ -10,10 +7,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Urbanist', sans-serif;
   color: white;
 }
 .container{
   margin:200px 0px;
+  font-family: 'Urbanist', sans-serif;
 }
 .cards{
   height:500px;
@@ -44,6 +43,10 @@
   justify-content: center;
   align-items: center;
 }
+.title a{
+  text-decoration: none;
+  color: white;
+}
 .image{
   margin-top: 40px;
   height:200px;
@@ -67,17 +70,17 @@
   padding: 2px;
   padding-bottom: 10px;
 }
-ul{
+.links ul{
   padding-right: 30px;
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-li{
+.links li{
   margin: 5px;
 }
-a{
+.links a{
   text-decoration: none;
   color: white;
   cursor: pointer;
@@ -92,4 +95,8 @@ a:hover{
 
 .desc{
   margin-top: 20px;
+}
+
+h3{
+  margin: 15px;
 }
